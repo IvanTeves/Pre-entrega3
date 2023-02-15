@@ -1,0 +1,129 @@
+.main{
+    flex-direction: row-reverse;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: 10vh;
+    width: 100vw;
+}
+
+.main-section{
+    display:flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.images{
+    background-image: linear-gradient(180deg,#00000090 0%,#000000c4 100%), url("../Recursos/images/lashes.png");
+    width: 100vw;
+    height: 60vh;
+    /* border-radius: 20px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center center;
+}
+
+.images-2{
+    background-image: linear-gradient(20deg,#00000090 0%,#000000c4 100%), url("../Recursos/images/nails.jpg");
+    width: 100vw;
+    height: 60vh;
+    /* border-radius: 20px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center 10%;
+
+}
+.images-3{
+    background-image: linear-gradient(20deg,#00000090 0%,#000000c4 100%), url("../Recursos/images/perfilado-3.jpg");
+    width: 100vw;
+    height: 60vh;
+    /* border-radius: 20px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-position: 50% 47%;
+    background-size: cover;
+}
+
+.main{
+    flex-direction: row-reverse;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: 10vh;
+    width: 100vw;
+}
+
+.main-section{
+    display:flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+/* Images Hover */
+.images{
+    background-image: linear-gradient(180deg,#00000090 0%,#000000c4 100%), url("../Recursos/images/lashes.png");
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center center;
+}
+
+.images-2{
+    background-image: linear-gradient(20deg,#00000090 0%,#000000c4 100%), url("../Recursos/images/nails.jpg");
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center 10%;
+
+}
+.images-3{
+    background-image: linear-gradient(20deg,#00000090 0%,#000000c4 100%), url("../Recursos/images/perfilado-3.jpg");
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-position: 50% 47%;
+    background-size: cover;
+}
+
+.images a{
+    text-decoration: none;
+    color: white;
+    font-family:'Poppins', sans-serif;;
+    opacity: .25;
+    font-size: 7vw;
+}
+
+.images-2 a{
+    text-decoration: none;
+    color: white;
+    font-family:'Poppins', sans-serif;;
+    opacity: .25;
+    font-size: 7vw;
+}
+
+.images-3 a{
+    text-decoration: none;
+    color: white;
+    font-family:'Poppins', sans-serif;;
+    opacity: .25;
+    font-size: 7vw;
+}
