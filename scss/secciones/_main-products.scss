@@ -1,0 +1,167 @@
+.main-products{
+    position: relative;
+    display: flex;
+    top: 10vh;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: flex-start;
+}
+.main-products section{
+    height: 90vh;
+    display: grid;
+    grid-template-columns: repeat(4,2fr);
+    grid-template-rows: repeat(2,2fr);
+    color: blue;
+    grid-template-areas: "producto-1 producto-2 producto-3 producto-4"
+                         "producto-5 producto-6 producto-7 producto-8"
+    ;
+    background-color: rgba(0, 0, 0, 0.902);
+}
+.main-products section div{
+    background-color: orange;
+   
+    margin: 10px;
+
+}
+.main-products section div:hover{
+    background-color: orange;
+    margin: 10px;
+    
+
+}
+.producto-1{
+    grid-area: producto-1;
+    /* background-image: url(../Recursos/images/crema.jpg); */
+    background-image: linear-gradient(20deg,#00000090 0%,#000000c4 100%), url(../Recursos/images/crema.jpg);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 3px;
+}
+.producto-2{
+    grid-area: producto-2;
+    /* background-image: url(../Recursos/images/crema.jpg); */
+    background-image: linear-gradient(20deg,#00000090 0%,#000000c4 100%), url(../Recursos/images/crema-facial.jpg);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 3px;
+}
+.producto-3{
+    grid-area: producto-3;
+    /* background-image: url(../Recursos/images/crema.jpg); */
+    background-image: linear-gradient(20deg,#00000090 0%,#000000c4 100%), url(../Recursos/images/pestañas-magneticas.jpg);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 3px;
+}
+.producto-4{
+    grid-area: producto-4;
+    /* background-image: url(../Recursos/images/crema.jpg); */
+    background-image: linear-gradient(20deg,#00000090 0%,#000000c4 100%), url(../Recursos/images/nails.jpg);
+    background-size: cover;
+    background-position: 46% center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 3px;
+}
+.producto-5{
+    grid-area: producto-5;
+    /* background-image: url(../Recursos/images/crema.jpg); */
+    background-image: linear-gradient(20deg,#00000090 0%,#000000c4 100%), url(../Recursos/images/aguamiscelar.jpg);
+    background-size: cover;
+    background-position: center 45%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 3px;
+}
+.producto-6{
+    grid-area: producto-6;
+    /* background-image: url(../Recursos/images/crema.jpg); */
+    background-image: linear-gradient(20deg,#00000090 0%,#000000c4 100%), url(../Recursos/images/protectorsolar.jpg);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 3px;
+}
+.producto-7{
+    grid-area: producto-7;
+    /* background-image: url(../Recursos/images/crema.jpg); */
+    background-image: linear-gradient(20deg,#00000090 0%,#000000c4 100%), url(../Recursos/images/cera-depilar.jpg);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 3px;
+}
+.producto-8{
+    grid-area: producto-8;
+    /* background-image: url(../Recursos/images/crema.jpg); */
+    background-image: linear-gradient(20deg,#00000090 0%,#000000c4 100%), url(../Recursos/images/crema-antiarrugas.jpg);
+    background-size: cover;
+    background-position: 39% center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 3px;
+}
+
+
+.product-text{
+    color: aliceblue;
+    opacity: .75;
+    font-family:'Poppins', sans-serif;;
+    font-size: larger;
+}
+
+
+
+
+/* Responsive para celular */
+@media (max-width: 400px){
+    .footer a{
+        display: none;
+    }
+    .footer div{
+        display: contents;
+    }
+    .main-products{
+        position: relative;
+        display: flex;
+        top: 10vh;
+        flex-direction: column;
+        height: 200vh;
+        justify-content: flex-start;
+    }
+    .main-products section{
+        height: 195.58vh;
+        display: grid;
+        grid-template-columns: repeat(4,2fr);
+        grid-template-rows: repeat(8,2fr);
+        color: blue;
+        border: none;
+        grid-template-areas: "producto-1 producto-1 producto-1 producto-1"
+                             "producto-2 producto-2 producto-2 producto-2"
+                             "producto-3 producto-3 producto-3 producto-3"
+                             "producto-4 producto-4 producto-4 producto-4"
+                             "producto-5 producto-5 producto-5 producto-5"
+                             "producto-6 producto-6 producto-6 producto-6"
+                             "producto-7 producto-7 producto-7 producto-7"
+                             "producto-8 producto-8 producto-8 producto-8"
+
+                             ;   
+        background-color: rgba(0, 0, 0, 0.902);
+    }
+}

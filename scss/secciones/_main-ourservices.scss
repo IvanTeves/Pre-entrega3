@@ -1,0 +1,21 @@
+.main-ourservices{
+    display: flex;
+    position: relative;
+    top: 10vh;
+    height: 90vh;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-ourservices article{
+    height: 80vh;
+    background-color: rgba(0, 0, 0, 0.902);
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.main-ourservices article p{
+    font-family: 'Poppins', sans-serif;
+    color: aliceblue;   
+}
