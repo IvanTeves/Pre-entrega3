@@ -1,0 +1,30 @@
+.footer{
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    color: aliceblue;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.902);
+    border: none;
+}
+
+.footer a{
+    font-family:'Poppins', sans-serif;;
+    padding: 2px;    
+    color: white;
+    height: 20px;
+    opacity: .15;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    color: aliceblue;
+    opacity: .5;
+    border-radius: 7px;
+} 
+
+.footer div{
+    display: none;
+}
