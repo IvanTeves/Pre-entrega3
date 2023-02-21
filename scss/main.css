@@ -4,53 +4,6 @@
   padding: 0;
 }
 
-.header {
-  display: flex;
-  height: 10vh;
-  width: 100vw;
-  justify-content: space-between;
-  align-items: center;
-  position: fixed;
-  background-color: rgba(0, 0, 0, 0.902);
-  z-index: 1;
-}
-
-/* Logo general */
-.logo-inicio {
-  height: 10vh;
-  width: 13vw;
-  background-image: url("../Recursos/images/navlogo.png");
-  background-size: cover;
-  background-position: center center;
-}
-
-.list-style {
-  list-style-type: none;
-  display: flex;
-  width: 87vw;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  font-family: "Poppins", sans-serif;
-}
-
-.list-style_ancle {
-  text-decoration: none;
-  opacity: 0.25;
-  color: white;
-}
-
-.list-style_ancle:hover {
-  opacity: 0.5;
-  color: white;
-}
-
-.active {
-  padding: 5px;
-  color: white;
-  text-decoration: none;
-  opacity: 0.85;
-}
-
 .main {
   flex-direction: row-reverse;
   display: flex;
@@ -181,6 +134,18 @@
   font-size: 7vw;
 }
 
+.images:hover {
+  background-image: linear-gradient(20deg, rgba(0, 0, 0, 0.5647058824) 0%, rgba(0, 0, 0, 0.1450980392) 100%), url("../Recursos/images/lashes.png");
+}
+
+.images-2:hover {
+  background-image: linear-gradient(20deg, rgba(0, 0, 0, 0.5647058824) 0%, rgba(0, 0, 0, 0.1450980392) 100%), url("../Recursos/images/nails.jpg");
+}
+
+.images-3:hover {
+  background-image: linear-gradient(20deg, rgba(0, 0, 0, 0.5647058824) 0%, rgba(0, 0, 0, 0.1450980392) 100%), url("../Recursos/images/perfilado-3.jpg");
+}
+
 .footer {
   height: 100px;
   width: 100vw;
@@ -222,24 +187,11 @@
   align-items: center;
 }
 
-.main-contact article {
-  height: 90vh;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.902);
-  color: aliceblue;
-  text-align: center;
-  font-family: "Poppins", sans-serif;
-  font-size: larger;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
 .form {
   display: flex;
   background-color: rgba(0, 0, 0, 0.902);
   padding: 30px;
-  height: 45vh;
+  height: 90vh;
   width: 100%;
   flex-direction: column;
   align-content: space-between;
@@ -446,4 +398,56 @@
 .main-ourservices article p {
   font-family: "Poppins", sans-serif;
   color: aliceblue;
+}
+
+.header {
+  display: flex;
+  height: 10vh;
+  width: 100vw;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.902);
+  z-index: 1;
+}
+
+/* Logo general */
+.logo-inicio {
+  height: 10vh;
+  width: 13vw;
+  background-image: url("../Recursos/images/navlogo.png");
+  background-size: cover;
+  background-position: center center;
+}
+
+w .list-style {
+  list-style-type: none;
+  display: flex;
+  width: 87vw;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  font-family: "Poppins", sans-serif;
+}
+
+.list-style_ancle {
+  text-decoration: none;
+  opacity: 0.25;
+  color: white;
+}
+
+.list-style_ancle:hover {
+  opacity: 0.5;
+  color: white;
+}
+
+.actives {
+  padding: 5px;
+  color: white;
+  text-decoration: none;
+  opacity: 0.85;
+}
+
+.main_quienes {
+  display: flex;
+  justify-content: center;
 }/*# sourceMappingURL=main.css.map */

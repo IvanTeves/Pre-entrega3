@@ -1,13 +1,8 @@
 @import './utilidades/reset';
-@import './secciones/header';
 @import './secciones/main-index';
 @import './secciones/footer';
 @import './secciones/main-contact';
 @import './secciones/main-products';
 @import './secciones/main-ourservices';
-
-/*Boostrap */
-$primary: #900;
-$enable-shadows: true;
-$prefix: "mo-";
-@import "../node_modules/bootstrap/scss/bootstrap";
+@import './secciones/header';
+@import './secciones/main-quienes';

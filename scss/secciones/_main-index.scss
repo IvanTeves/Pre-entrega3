@@ -127,3 +127,14 @@
     opacity: .25;
     font-size: 7vw;
 }
+
+.images:hover{
+    background-image: linear-gradient(20deg,#00000090 0%,#00000025 100%), url("../Recursos/images/lashes.png");
+  }
+  .images-2:hover{
+    background-image: linear-gradient(20deg,#00000090 0%,#00000025 100%), url("../Recursos/images/nails.jpg");
+  }
+  .images-3:hover{
+    background-image: linear-gradient(20deg,#00000090 0%,#00000025 100%), url("../Recursos/images/perfilado-3.jpg");
+  }
+  
