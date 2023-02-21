@@ -447,7 +447,20 @@ w .list-style {
   opacity: 0.85;
 }
 
-.main_quienes {
+.main-quienes {
   display: flex;
-  justify-content: center;
+  position: relative;
+  top: 10vh;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.main-quienes article {
+  height: 90vh;
+  background-color: rgba(0, 0, 0, 0.902);
+  width: 100%;
+  text-align: center;
+  color: white;
+  align-items: center;
 }/*# sourceMappingURL=main.css.map */
