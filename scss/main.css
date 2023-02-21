@@ -442,9 +442,14 @@ w .list-style {
 
 .actives {
   padding: 5px;
-  color: white;
+  color: white !important;
   text-decoration: none;
-  opacity: 0.85;
+  opacity: 0.85 !important;
+}
+
+.color {
+  opacity: 0.25 !important;
+  color: white !important;
 }
 
 .main-quienes {
@@ -464,3 +469,8 @@ w .list-style {
   color: white;
   align-items: center;
 }/*# sourceMappingURL=main.css.map */
+
+.color{
+  opacity: .25 ;
+  color: white ;
+}

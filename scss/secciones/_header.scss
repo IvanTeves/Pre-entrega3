@@ -38,7 +38,12 @@ w
 
 .actives{
     padding: 5px;
-    color: white;
+    color: white!important;
     text-decoration: none;
-    opacity: .85;
+    opacity: .85 !important;
+}
+
+.color{
+    opacity: .25 !important;
+    color: white !important;
 }
